@@ -1,0 +1,17 @@
+.newsCard {
+    display:flex;
+    flex-direction:column;
+    background-color: #FFF;
+    max-width:31%;
+    border-radius: 15px;
+}
+
+
+.cardContent {
+    padding:0px 20px;
+    margin:auto;
+}
+
+.newsCard img {
+    max-width:100%;
+}

@@ -1,0 +1,47 @@
+.well-box {
+    display: flex;
+    flex-direction: row;
+
+    margin-bottom:0px;
+}
+
+.left-well {
+    display:flex;
+    flex-direction: column;
+
+    background-color: #256E99;
+    color:white;
+
+    justify-content: center;
+
+    max-width: 48%;
+    height:317px;
+    padding:0px 40px;
+}
+
+.videoFrame {
+    width:500px;
+    height:317px;
+}
+
+@media only screen and (max-width:800px){
+    .well-box{
+        flex-direction:column;
+    }
+
+    .left-well{
+        max-width:100%;
+    }
+
+    .right-well {
+        width:100%;
+        text-align: center;
+        margin:0 auto;
+    }
+
+    .videoFrame{
+        width:100%;
+        max-width:600px;
+        max-height:317px;
+    }
+}

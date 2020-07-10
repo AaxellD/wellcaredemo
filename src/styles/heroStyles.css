@@ -1,0 +1,75 @@
+/* TEST END */
+
+.hero-box {
+    background: url("https://www.wellcare.com/~/media/Heroes/Family_outside_6.ashx?mw=1382");
+    height:400px;
+}
+
+.inner-box {
+    display:flex;
+    flex-direction: row;
+}
+
+.hero-stripe {
+    display:inline-block;
+    height: 400px;
+    width: 16px;
+    background-color: #FFF;
+}
+
+.overlayShape {
+    background: url('https://www.wellcare.com/content/wellcare/img/temp/angle-overlay.png') no-repeat;
+    height:400px;
+    width:100%;
+    opacity: .92;
+    z-index:1;
+}
+
+.heroContent {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    position: absolute;
+    padding:50px 0px;
+    z-index: 10;
+    text-align: center;
+}
+
+.heroState {
+    background-color: #256e99;
+    color: #fff;
+    padding: 2px 56px 2px 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.heroSlogan {
+    background: url('https://www.wellcare.com/content/wellcare/img/temp/angle-overlay-inner.png') left no-repeat;
+    color: white;
+    text-align: center;
+}
+
+.heroSlogan h1 {
+    width: 70%;
+    padding-left: 20px;
+}
+
+.cWarning {
+    text-align: start;
+    margin-left: 5%;
+    width: 55%;
+}
+
+.heroLink {
+    display:flex;
+    background-color: #256e99;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+    width:300px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
